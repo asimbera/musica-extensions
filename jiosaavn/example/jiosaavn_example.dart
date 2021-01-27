@@ -1,6 +1,7 @@
+import 'package:dio/dio.dart';
 import 'package:jiosaavn/jiosaavn.dart';
 
 void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  final dio = Dio();
+  final saavn = JioSaavnClient(dio);
 }

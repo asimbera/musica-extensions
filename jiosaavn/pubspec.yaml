@@ -10,7 +10,10 @@ dev_dependencies:
   freezed: ^0.12.7
   json_serializable: ^3.5.1
   pedantic: ^1.9.0
+  retrofit_generator: ^1.4.1+2
   test: ^1.14.4
 dependencies:
+  dio: ^3.0.10
   freezed_annotation: ^0.12.0
   json_annotation: ^3.1.1
+  retrofit: ^1.3.4+1
